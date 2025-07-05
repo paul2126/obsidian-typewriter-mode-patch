@@ -1,8 +1,9 @@
 # obsidian-typewriter-mode-patch
 This is a patch for obsidian-typewriter-mode to fix korean characters input issue.
-temporary fix to js file and needs to fix `plugin.ts` in src/cm6/plugin.ts.
 
-obsidian-typewriter-mode를 사용할 때 받힘을 적고 모음을 입력할 때 글자가 사라지는 문제를 해결합니다.
+Temporary fix to js file and needs to fix `plugin.ts` in src/cm6/plugin.ts.
+
+obsidian-typewriter-mode를 사용할 때 받힘을 적고 모음을 입력할 때 글자가 사라지는 문제를 해결합니다. main.js를 그대로 교체하면 됩니다
 
 IME(입력기)가 아직 글자를 “조합”하는 중인데 Typewriter Mode가 강제로 스크롤 트랜잭션을 디스패치해 버려서, 브라우저가 조합 과정을 중단하고 글자를 지워 버립니다.
 
